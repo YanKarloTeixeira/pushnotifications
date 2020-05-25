@@ -4,7 +4,7 @@ self.addEventListener("push", e => {
   const data = e.data.json();
   console.log("Push Recieved...");
   self.registration.showNotification(data.title, {
-    body: "Notified by Traversy Media!",
-    icon: "http://image.ibb.co/frYOFd/tmlogo.png"
+    body: "Notified by Yan Karlo",
+    icon: "https://cdn2.iconfinder.com/data/icons/social-messaging-productivity-6/128/world-click-512.png"
   });
 });
